@@ -21,7 +21,6 @@
 #define _FASTDDS_STATUS_CONDITION_HPP_
 
 #include <fastdds/dds/core/condition/Condition.hpp>
-#include <fastdds/dds/core/Entity.hpp>
 #include <fastdds/dds/core/status/StatusMask.hpp>
 #include <fastrtps/fastrtps_dll.h>
 #include <fastrtps/types/TypesBase.h>
@@ -29,6 +28,8 @@
 namespace eprosima {
 namespace fastdds {
 namespace dds {
+
+class Entity;
 
 /**
  * @brief The StatusCondition class is a specific Condition that is associated with each Entity.
